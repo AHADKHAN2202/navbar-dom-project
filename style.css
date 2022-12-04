@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: max-content;
+}
+section{
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    top: 0;
+    left:4.1em;
+}
+
+i{
+    height: max-content;
+}
+.nav{
+    display: flex;
+}
+.fa-file{
+    color:#4285f4;
+    font-size:60px;
+    padding: 10px 20px;
+}
+.heading{
+    color: rgba(91, 88, 88, 0.751);
+    height: max-content;
+    padding: 10px 20px;
+}
+
+.fa-star,.fa-google-drive,.fa-circle-info,.fa-check{
+    color: rgba(91, 88, 88, 0.751);
+    height: max-content;
+    padding: 10px 20px;
+}
+
+
+ol{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+li{
+   font-size: large;
+   font-weight: bolder;
+}
+
+li:hover,i:hover,h1:hover{
+    cursor: pointer;
+}
